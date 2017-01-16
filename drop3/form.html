@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>--Table--</title>
+
+<style>
+table,tr
+{
+	border: 0px solid black;
+}
+</style>
+		
+	</head>
+	
+	<body>
+	
+		<form name="form1" id="form1" action="" method="" enctype="multipart/form-data">
+		
+		<fieldset>
+			<legend>Form 01</legend>
+		<table width="100%" border="0">
+		<tr>
+			<td>&nbsp;</td>
+			<td colspan="2">All astaric(<font size="3" color="#f00">*</font>) field are required</td>
+		</tr>
+		<tr>
+					<td>Search</td>
+					<td>:</td>
+					<td><input list="search_type" name="search" id="search" >
+					<datalist id="search_type">
+						<option value="Internet Explorer">
+						<option value="Firefox">
+						<option value="Chrome">
+						<option value="Opera">
+						<option value="Safari">
+						<option value="People n Tech">
+					</datalist>
+					
+					</td>
+					
+			</tr>
+			<tr>
+					<td>First Name<span style="color:red">*</span></td>
+					<td>:</td>
+					<td><input type="text" name="first_name" id="first_name" maxlength="15"></td>
+					
+			</tr>
+			<tr>
+					<td>Middle Name</td>
+					<td>:</td>
+					<td><input type="text" name="middle_name" id="middle_name" ></td>
+					
+			</tr>
+			<tr>
+					<td>Last Name</td>
+					<td>:</td>
+					<td><input type="text" name="last_name" id="last_name" ></td>
+					
+			</tr>
+			
+			<tr>
+					<td> Country code </td>
+					<td>:</td>
+					<td><input type="text" name="country_code" id="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"></td>
+					
+			</tr>
+			<tr>
+					<td>Email</td>
+					<td>:</td>
+					<td><input type="email" name="email" id="email" ></td>
+					
+			</tr>
+			<tr>
+					<td>Password</td>
+					<td>:</td>
+					<td><input type="password" name="password" id="password" ></td>
+					
+			</tr>
+			<tr>
+					<td>Roll No</td>
+					<td>:</td>
+					<td><input type="number" name="roll_no" id="roll_no" ></td>
+					
+			</tr>
+			<tr>
+					<td>Admission Date</td>
+					<td>:</td>
+					<td><input type="date" name="admission_date" id="admission_date" ></td>
+					
+			</tr>
+</tr>
+
+<tr>
+					<td>Present Address</td>
+					<td>:</td>
+					<td><textarea name="pre_address" id="pre_address"></textarea></td>
+					
+			</tr>
+<tr>
+					<td>Permanent Address</td>
+					<td>:</td>
+					<td><textarea name="per_address" id="per_address" cols="40" rows="5"></textarea></td>
+					
+			</tr>
+<tr>
+					<td>Gender</td>
+					<td>:</td>
+					<td><input type="radio" name="gender" id="gender" value="male"> Male <input type="radio" name="gender" id="gender" value="female"> Female
+</td>
+					
+			</tr>
+<tr>
+					<td>Birth Date</td>
+					<td>:</td>
+					<td>
+					<select name="birth_day" id="birth_day">
+						<option value="">--Select Day--</option>
+						<option value="01">01</option>
+						<option value="02">02</option>
+						
+					</select>
+					
+					<select name="birth_month" id="birth_month">
+						
+						<option value="">--Select Month--</option>
+						<option value="January">January</option>
+						<option value="February">February</option>
+					
+					</select>
+					
+					<select name="birth_year" id="birth_year">
+					<option value="">--Select Year--</option>
+						<optgroup label="2000-2001">
+							<option value="2000">2000</option>
+							<option value="2001">2001</option>
+						</optgroup>
+						<optgroup label="2002-2005">
+							<option value="2002">2002</option>
+							<option value="2003">2003</option>
+							<option value="2004">2004</option>
+							<option value="2005">2005</option>
+						</optgroup>
+					</select>
+					
+					
+					</td>
+					
+			</tr>
+
+<tr>
+					<td>Education</td>
+					<td>:</td>
+					<td>
+					<input type="checkbox" name="education" id="education" value="ssc"> S.S.C 
+					<input type="checkbox" name="education" id="education" value="hsc"> H.S.C
+					<input type="checkbox" name="education" id="education" value="bsc"> B.S.C
+</td>
+					
+			</tr>
+			<tr>
+					<td>Picture</td>
+					<td>:</td>
+					<td><input type="file" name="picture" id="picture">
+</td>
+					
+			</tr>
+			
+			
+			
+<tr>
+					<td></td>
+					<td colspan="3"><input type="submit" name="submit" id="submit" value="Submit"><input type="reset" name="reset" id="reset" value="Reset"></td>
+					
+					
+					
+			</tr>			
+		</table>
+		</fieldset>
+		<fieldset>
+			<legend>Form 02</legend>
+			
+		</fieldset>
+</form>		
+	</body>
+</html>
